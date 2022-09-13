@@ -1,7 +1,7 @@
 import pytest
 
 
-def test_set_add_new_element():
+def test_set_has_element():
     a = {1, 2, 2, 3, 0}
     assert 3 in a
 
